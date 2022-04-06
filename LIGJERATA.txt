@@ -1,0 +1,183 @@
+Validimi i javascript me regexa e sene 
+
+Kqyri nw3 schools ato excercises se pom doket i qet kto qa jon mat rendsishme e shkruj edhe niher qato
+Te PDF e 2-te ky e perdor for...in per objekte e stringje e per arrays e per krejt qe mi qit ashtu posht senet
+
+b - per me bo tzez ma shum 
+em - per mi bo tu rrxu
+u - per mi bo tnenvizume
+target "_blank" - per met qit new tab mos me ta qel qaty per qaty linkun
+strong - per me bo tzez ma shum
+column - vertikale
+row - horizontale
+
+The two variables price1 and price2 are declared with the const keyword.
+These are constant values and cannot be changed.
+The variable total is declared with the let keyword.
+This is a value that can be changed
+
+If you re-declare a JavaScript variable declared with var, it will not lose its value.
+The variable carName will still have the value "Volvo" after the execution of these statements:
+
+You cannot re-declare a variable declared with let or const.
+This will not work:
+let carName = "Volvo";
+let carName;
+
+
+Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+<<=	x <<= y	x = x << y
+>>=	x >>= y	x = x >> y
+>>>=	x >>>= y	x = x >>> y
+&=	x &= y	x = x & y
+^=	x ^= y	x = x ^ y
+|=	x |= y	x = x | y
+**=	x **= y	x = x ** y
+
+
+
+Operator	Description
+==	equal to
+===	equal value and equal type
+!=	not equal
+!==	not equal value or not equal type
+>	greater than
+<	less than
+>=	greater than or equal to
+<=	less than or equal to
+?	ternary operator
+
+
+
+Operator	Description
+&&	logical and
+||	logical or
+!	logical not
+
+
+% === sa tdel mbetja, psh 5 % 2 na jep 1
+** === e ngrit nfuqi tparin per tdytin psh 5 ** 2 = 25
+
+
+Since the first operand is a string, all operands are treated as strings.
+
+
+
+Event	Description
+onchange	An HTML element has been changed
+onclick	The user clicks an HTML element
+onmouseover	The user moves the mouse over an HTML element
+onmouseout	The user moves the mouse away from an HTML element
+onkeydown	The user pushes a keyboard key
+onload	The browser has finished loading the page
+
+
+Comparing two JavaScript objects always returns false.
+
+String Methods si kom kqyr fort
+
+You should use objects when you want the element names to be strings (text).
+You should use arrays when you want the element names to be numbers.
+
+
+const points = new Array();
+const points = []; (QITO DYJA JON NJEJT KSHTTU QE MA MIR PERDORE TDYTEN)
+
+
+
+Deklarimi i variables const, nga ana tjetër, mund të deklarohet vetëm një herë. Vlera e saj nuk
+mund të ndryshojë kurrë.
+❑Deklarimi i një variable p.sh; x = 42, kjo formë krijon një variable globale të padeklaruar
+Ramiz HOXHA © 2021 UBT 4
+p.sh: var emriStudentit = "Dardan"; var mosha = 20;
+p.sh: const studentID = “ag43956"; const PI = 3.14;
+
+Strings (varg i texti): lloj i të dhenave në JavaScript, përbëhen nga një (teknikisht zero)
+ose më shumë karaktere të rrethuar nga thonjëza dy fishe (“vargu i textit”) ose
+anjefish (‘vargu i tetit’). 
+
+
+DOM:
+In the DOM, all HTML elements are defined as objects.
+A property is a value that you can get or set (like changing the content of an HTML element).
+A method is an action you can do (like add or deleting an HTML element).
+
+
+document.getElementById(id)	Find an element by element id
+document.getElementsByTagName(name)	Find elements by tag name
+document.getElementsByClassName(name)	Find elements by class name
+
+
+Property	Description
+element.innerHTML =  new html content	Change the inner HTML of an element
+element.attribute = new value	Change the attribute value of an HTML element
+element.style.property = new style	Change the style of an HTML element
+Method	Description
+element.setAttribute(attribute, value)	Change the attribute value of an HTML element
+
+===============================================================================================================================================================
+PHP:
+I kemi permen data types, functions, variablat, switch, array, conditionals IF, ELSE, SWITCH, while, do while, for, Include, Require 
+FUNCTIONS SPO I KUPTOJ
+strlen() - numron shkronjat sa jon me numer
+str_word_count() - i numron sa fjal jon
+strrev() - e bon reverse
+str_replace() - e bon replace
+var_dump() - jep informacion se qfar variable osht
+
+print e shtyp veq 1 element 
+echo munet me shtyp ma shum se 1 elemente
+
+Dallimi mes variables globale dhe asaj lokale: e dim qe scope eshte fusheveprimi i variablave, variable main e ka scopin globale
+Variablen globale mundemi me perdor qdokund brena dokumentit
+Variabla statike e run vleren qe e ke pas 
+
+Ni variabel globale osht ni variabel qe deklarohet edhe i jepet vler jasht funksionit qysh e kemi na name surname birthY e krejt kto variabla jon globale edhe kto variabla jan te qasshme ose e kan fushveprimin jasht funksioneve por edhe mrena funksioneve qysh e paten qitu per dallim prej gjjuhve tjera ne php duhet me ja specifiku qe osht ni variabel globale edhe merre qat variabel globale.
+Variablat lokale jan variabla qe inicializohen brenda funksionit edhe fushveprimin e kan vetem brenda funksionit qysh e patem moshen. Moshen mundemi me u qas vetem brenda qiti funksionit
+
+Dallimi mes variables lokale edhe globale osht se kur e shenojna brenda bllokut ose brenda funksionit sido qe e quni osht lokale ndersa jasht osht globale. 
+Dallimi tjeter osht se globalja munet me u perdor dmth e ka qat skopin ose fushveprimin e ka shum mat gjer sesa lokalja qasthu lokalja dmth nuk mundson data sharing a nqoft se e deklaron brenda nji metode ose funksioni qyshdo qe e quni ather ajo ka me u pa veq brenda qati funksioni, qysh kena thon qe muna me bo qe munemi me e bo qe me mujt edhe me pa jasht funksionit qysh duhet me deklaru iq-worki qysh ka qen.
+Nqoft se kishim deklaru veq si variabel qysh e kena msu qe e deklarojna psh veq emrin ather ajo ish llogarit si lokale dhe nqoft se kishim tentu me thirr qat funksion ather ajo nuk e kish njoft qat variabel
+Mandej ni lloj tjeter i variables ka qen statike, qka ka qen statike - statikja osht nje lloj i variables qe kopja e saj ruhet ne memorie qe dmth nqoft se i kemi 2 funksione edhe njoni funksion e ka ni variabel normal njoni e ka ni variabel statike edhe nqoft se i thirrim qato 2 funksione edhe i implementojna vlerat ai me variabel statike ka me shku tu i implementu qat vler psh niher ka me shfaq 1,2,3,4,5 e kshtu me radh e ajo me variabel normale ka me shfaq psh gjithmon 1 nese ja jepim vleren 1 gjithmon ka me shfaq vleren 1,1,1,1, per shkak se sa her t thirret funksioni ajo deklarohet si e re nifar mnyre, nuk osht ni kopje e saj qe u rujt dikun e te variabla statike kopja e saj o rujt nmemorie edhe ti sa her e thirr funksionin ajo ka me thirr qata 1 tani heren e dyt ka me bo 2 3 4 e qishtu me radh
+Tjeter kemi permend pak per funksionet po folim per to orve tjera 
+
+Kur tshenojm brena thojzave ose string psh $dita = "E hene"
+Nese asnjo nuk perputhet prej switch e case e kto psh e hene e shtune e perdorim default
+
+strtolower per lower case
+
+Qfar lloje te array kemi pas edhe cilat jon ato - index, asociative edhe shumdimensionale
+Array e indeksuar ose array numerike osht ni array e thjesht qe e keni pa gjithkun edhe njava e keni perdor njavascript edhe dmth osht array komplet me indexe qe per mju qas ni elementi i qasesh ni indexit ose iteron neper qato indexe, qaj osht array indeksuar ose numerike
+$ditetEJaves = array("E hene", "E marte", "E merkure", ); //indexed array sepse e ka indexin 0 indexin 1 dhe indexin 2
+
+Array asociative - ka key edhe value, nese key eshte emri ather value ka me kon ni emer i ni njerit ose nqoft se ni key osht mosha ni value ka me kon mosha e qati njerit
+
+Dallimi mes include edhe require edhe ku perdoren - require gjun error e include gjun veq warning dmth nuk e ndalon skripten me u ekzekutu
+
+include ../ qe me perfshi ata t'header ose footer ose qa tki qe mos me pas nevoj me shkru tnjejtin kod nfile tndryshme
+
+Nese kur jemi tu e hap localhost nuk e specifikojna emrin e fajllit ather default e hap indexin
+
+VAZHDO NW3 TE PHP STRINGS
+ELTONI: (ushtrime 9)
+Kemi 3 lloje te vargjeve ose te arrays
+Kemi metoda tndryshme te arrays
+count, sizeOf, array_push, print_r, array_pop, array_unshift, array_shift
+Per me sort ni array osht rsort
+
+
+USHTRIME 10:
+PHP SUPERGLOBALS, Validation
+E dim qe forma eshte elementi qe sherben per me dergu tdhena ne backend , mnyra qysh munem mi marr qato tdhana osht get edhe post, qe jan variabla poashtu superglobale
+Nese perdorim get tdhenat shkojn permes URL-it ndersa nese perdorim post ato shkojn permes tprotokolit te hctps si header t hctps dhe nuk mundet me i pa perdoruesi
+Dashboardi duhet me ju shfaq veq adminit dashboardi osht veq per adminin
+
+Dashboard osht ni faqe qe eshte e qasshme veq per adminin edhe admini ka ma shum privilegje ma shum se perdoruesit e tjer, ka me mujt me shtu perdorues te tjer me fshi me editu me shtu produkte pra qdo funksion qe kan me pas perdoruesit e tjer ka mi pas edhe admini perveq qe i ka edhe disa tjera me blloku ni perdorues apo qka do qe ju doni, skeni nevoj te pjesa e dashboardit me u fokusu shum me u mundu me zbukuru e kto sene po osht mir me i pas kto funksionit e krudit, mundonu me plotsu secilen kerkes mos u mundoni me bo faqen shum tbukur e me lon naj kerkes ktu pa plotsu se qitu t'hekim pik dhe ma shum se 40 pik na smuna me jau dhon edhe nese e keni ni faqe super tmir po mundonu qito kerkesa mi plotsu
+
+
